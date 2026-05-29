@@ -1,0 +1,17 @@
+risk_levels:
+  low:
+    description: "Read-only or status-check actions."
+    approval_required: false
+
+  medium:
+    description: "Repo-local changes, test execution, or generated patches."
+    approval_required: true
+
+  high:
+    description: "System-level changes, network downloads, credential access, or broad file changes."
+    approval_required: true
+
+  blocked:
+    description: "Unsafe, destructive, confidential, or unauthorized actions."
+    approval_required: false
+    execute: false

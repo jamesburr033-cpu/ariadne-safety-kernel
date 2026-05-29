@@ -1,0 +1,16 @@
+.env
+*.env
+*.key
+*.pem
+*.pfx
+*.p12
+__pycache__/
+.pytest_cache/
+.venv/
+venv/
+node_modules/
+.DS_Store
+*.log
+logs/
+secrets/
+private/

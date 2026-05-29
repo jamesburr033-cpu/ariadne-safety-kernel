@@ -1,0 +1,19 @@
+name: Basic Checks
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  basic-checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: List files
+        run: find . -maxdepth 3 -type f | sort
+      - name: Check required files
+        run: |
+          test -f README.md
+          test -f SECURITY.md
+          test -f schemas/task_router.schema.json
+          test -f policies/risk_policy.example.yaml

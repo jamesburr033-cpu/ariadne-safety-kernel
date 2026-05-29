@@ -1,0 +1,10 @@
+protected_paths:
+  - "~/.ssh"
+  - "~/.aws"
+  - "~/.config"
+  - "C:\\Windows"
+  - "C:\\Program Files"
+  - ".env"
+  - "*.pem"
+  - "*.key"
+  - "secrets.*"

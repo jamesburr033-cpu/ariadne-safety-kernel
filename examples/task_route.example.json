@@ -1,0 +1,9 @@
+{
+  "intent": "test_run",
+  "risk": "medium",
+  "approval_required": true,
+  "recommended_workflow": "Run tests in the current repo, summarize results, and request approval before any commit.",
+  "allowed_tools": ["git_status", "run_tests", "read_file"],
+  "blocked_actions": ["delete_files", "modify_protected_paths", "network_download"],
+  "confidence": 0.87
+}
