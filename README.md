@@ -1,5 +1,7 @@
 # Ariadne Safety Kernel
 
+Ariadne Safety Kernel is a public reference pattern for building supervised AI agents that can propose actions, while deterministic policy gates control execution.
+
 A public, sanitized reference architecture for supervised local AI automation using deterministic policy gates, typed task schemas, human approval controls, audit logging, rollback planning, and optional neural components for routing, retrieval, evaluation, and fine-tuned specialist models.
 
 ## Core Principle
